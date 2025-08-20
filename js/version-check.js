@@ -169,6 +169,7 @@ function addVersionInfoToFooter() {
 
 // 在页脚显示版本元素的辅助函数
 function displayVersionElement(element) {
+    return;
     // 获取页脚元素
     const footerElement = document.querySelector('.footer p.text-gray-500.text-sm');
     if (footerElement) {
